@@ -1,4 +1,9 @@
-# CodeIgniter 4 Framework
+# CodeIgniter 4 Framework used by David Chavarria
+
+## Why?
+
+    This proyect have been maked by code igniter because a subject of a grade. The objetive of this proyect is to take knowledge and experience using
+    this framework that is new for us
 
 ## What is CodeIgniter?
 

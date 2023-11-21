@@ -1,19 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alemania</title>
+  <title>España</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  <link rel="shortcut icon" href="https://w7.pngwing.com/pngs/798/23/png-transparent-flag-of-germany-weimar-republic-of-the-german-flag-flag-text-sphere-thumbnail.png" type="image/x-icon">
+  <link rel="shortcut icon" href="https://st3.depositphotos.com/1588812/18634/v/450/depositphotos_186349950-stock-illustration-spain-flag-vector-illustration.jpg" type="image/x-icon">
   <style>
     html,
     body {
-      background-color: rgb(0, 0, 0);
+      background-color: rgb(207, 42, 42);
       color: white;
       height: 100%;
       margin: 0;
@@ -63,12 +58,12 @@
     }
     footer 
     {
-        background-color: rgb(255, 4, 0);
+        background-color: rgb(44, 41, 2);
         padding: 3%;
     }
     li:hover
     {
-        background-color: rgb(255, 0, 0);
+        background-color: rgb(253, 16, 16);
         border-radius: 15px;
         animation: cambioLetra 3s;
         font-size: 20px;
@@ -128,10 +123,10 @@
               <a class="nav-link " aria-current="page" href="<?php echo base_url()?>">Austria</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo base_url()?>/home/pagina2">España</a>
+              <a class="nav-link active" href="#">España</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Alemania</a>
+              <a class="nav-link" href="<?php echo base_url()?>home/pagina3">Alemania</a>
             </li>
             <li style="background-color: rgb(216, 13, 13); border-radius: 15px;"> 
                 <a href="#" style="width: 100px; height: 100px;" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
@@ -151,42 +146,25 @@
       </nav>
     </header>
     <main data-bs-theme>
-      <h1 style="text-align: center;">Alemania</h1>
+      <h1 style="text-align: center;">España</h1>
       <div>
-        <p>Alemania (en alemán: Deutschland, pronunciado /ˈdɔʏtʃlant/ ( escuchar)), oficialmente República Federal de Alemania , es uno de los veintisiete Estados soberanos que forman la Unión Europea. Constituido en Estado social y democrático de derecho, su forma de gobierno es la república parlamentaria y federal. Su capital es Berlín. Está formado por dieciséis estados federados (Bundesländer) y limita al norte con el mar del Norte, Dinamarca, 
-            Suecia (frontera marítima) y el mar Báltico; al este con Polonia y la República Checa; al sur con Austria y Suiza; y al oeste con Francia, Luxemburgo, Bélgica y los Países Bajos. El municipio Büsingen am Hochrhein, enclavado en Suiza, también forma parte de Alemania. El territorio de Alemania abarca 357 376 km² de extensión y posee un clima templado. Con más de 84 millones de habitantes,
-             es el país más poblado entre los Estados de la Unión Europea, y es el hogar del tercer mayor grupo de emigrantes internacionales. En 2014 Alemania fue el segundo destino de las migraciones más popular del mundo, después de Estados Unidos.</p>
+        <p>España, también denominado Reino de España,nota es un país soberano transcontinental, constituido en Estado social y democrático de derecho y cuya forma de gobierno es la monarquía parlamentaria. Es uno de los veintisiete Estados soberanos que forman la Unión Europea. Su territorio, con capital en Madrid,está organizado en diecisiete comunidades autónomas, formadas a su vez por cincuenta provincias, y dos ciudades autónomas.
+            España se sitúa principalmente en el suroeste de Europa, si bien también tiene presencia en el norte de África. En Europa, ocupa la mayor parte de la península ibérica, conocida como España peninsular, y las islas Baleares (en el mar Mediterráneo). En África se hallan las ciudades de Ceuta y Melilla, las islas Canarias (en el océano Atlántico) y varias posesiones mediterráneas denominadas «plazas de soberanía». El municipio de Llivia, en los Pirineos, constituye un exclave rodeado totalmente por territorio francés. Completa el conjunto de territorios una serie de islas e islotes frente a las propias costas peninsulares. Tiene una extensión de 505 370 km2,
+            por lo que es el cuarto país más extenso del continente,nota y con una altitud media de 650 m sobre el nivel del mar, uno de los países más montañosos de Europa. Su población casi llega a los 48 millones y medio de habitantes, aunque la densidad de población es reducida si se compara con el contexto europeo.Concretamente, la población durante el tercer trimestre de 2023 llegó hasta los 48 446 594.
+            El territorio peninsular comparte fronteras terrestres con Francia y con Andorra al norte, con Portugal al oeste y con Gibraltar al sur. En sus territorios africanos, comparte fronteras terrestres y marítimas con Marruecos. Comparte con Francia la soberanía sobre la isla de los Faisanes en la desembocadura del río Bidasoa y cinco facerías pirenaicas.</p>
           <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="https://www.taranna.com/docs/viajes-a-alemania.jpg" class="d-block w-100"
+                <img src="https://www.mequieroir.com/wp-content/uploads/2020/09/spain.jpg" class="d-block w-100"
                   alt="Austria 1">
               </div>
               <div class="carousel-item">
-                <img src="https://www.civitatis.com/blog/wp-content/uploads/2020/12/castillo-neuschwanstein-baviera.jpg"
+                <img src="https://images.hive.blog/p/3W72119s5BjVtYhc8EyUCS1n2TpsbpKuDhBkZTQTi2NsGVP3cuDYfbsXixEKSxJPDw2s269ozzDq2VJiVH4Jv5RUfcwaC7QQEGeJczdU6hNcjmt37L4Tne?format=match&mode=fit"
                   class="d-block w-100" alt="Austria 2">
               </div>
               <div class="carousel-item">
-                <img src="https://fotografias.larazon.es/clipping/cmsimages02/2022/08/01/EEBE5C24-7B4A-4033-AD32-F8FB52397C14/98.jpg?crop=6114,3440,x918,y0&width=1900&height=1069&optimize=low&format=webply"
+                <img src="https://images.squarespace-cdn.com/content/v1/5a86b05bcf81e0af04936cc7/1614842171798-3AOKAXV69AFIKD6W5CGR/que-ver-en-espana.jpg"
                   class="d-block w-100" alt="Austria 3">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-      </div>
-      
-    </main>
-  </div>
-  <footer class="">
-    <h4 style="text-align: center;">Creado por David Chavarría @Copyrigth 2023</h4 style="text-align: center;">
-  </footer>
-</body>
-
-</html>
+            
